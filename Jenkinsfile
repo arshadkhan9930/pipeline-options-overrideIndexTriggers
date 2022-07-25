@@ -1,15 +1,15 @@
 pipeline {
  agent any
 
-options {
- /* { 
+/*options {
+ { 
   overrideIndexTriggers(true) 
   }
 }*/
 stages {
   stage ("Build") {
     steps {
-    echo "Hello World 1"
+		echo "Hello World 1"
     }
   }
 }
