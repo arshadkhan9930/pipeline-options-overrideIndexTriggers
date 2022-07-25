@@ -3,7 +3,7 @@ pipeline {
 
 /*options {
  { 
-  overrideIndexTriggers(true) 
+  overrideIndexTriggers(false) 
   }
 }*/
 stages {
